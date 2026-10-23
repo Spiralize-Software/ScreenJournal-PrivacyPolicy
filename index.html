@@ -1,0 +1,199 @@
+<!doctype html>
+<!--
+  Screen Journal privacy policy. Host this file at a public URL (Google Sites,
+  Notion "Publish to web", GitHub Pages, or any web host), then:
+    1. Replace every spiralize.software@proton.me below with a monitored email address.
+    2. Paste the hosted URL into Play Console > App content > Privacy policy.
+    3. Build the app with --dart-define=PRIVACY_POLICY_URL=<the hosted URL>
+       so Settings > Privacy policy opens it.
+  Update the "Effective" date whenever you change what the app collects.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Screen Journal Privacy Policy</title>
+  <meta name="description" content="How the Screen Journal app handles your data.">
+  <style>
+    :root {
+      --bg: #fbf8ff;
+      --surface: #ffffff;
+      --text: #1b1b21;
+      --muted: #5d5e67;
+      --accent: #3d5ba9;
+      --border: #e3e1ec;
+      --chip: #eef0ff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --surface: #1b1b21;
+        --text: #e4e1e9;
+        --muted: #a9aab4;
+        --accent: #b1c5ff;
+        --border: #2f3038;
+        --chip: #252a3d;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 16px 64px;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin: 40px 0 8px;
+    }
+    h3 {
+      font-size: 1rem;
+      margin: 24px 0 4px;
+    }
+    p, li { color: var(--text); }
+    .meta { color: var(--muted); margin: 0 0 24px; }
+    .summary {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 20px 24px;
+    }
+    .summary ul { margin: 8px 0 0; padding-left: 20px; }
+    a { color: var(--accent); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    th { color: var(--muted); font-weight: 600; }
+    .table-wrap { overflow-x: auto; }
+    code {
+      background: var(--chip);
+      border-radius: 6px;
+      padding: 1px 6px;
+      font-size: 0.9em;
+    }
+    footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .banner {
+        width: 100%;
+        height: 128px;
+    }
+  </style>
+</head>
+<body>
+<main>
+    <img src="banner.png" class="banner">
+
+  <h1>PRIVACY POLICY</h1>
+  <p class="meta">Effective October 23, 2026 · Developer: Spiralize Software</p>
+
+  <div class="summary">
+    <strong>In short</strong>
+    <ul>
+      <li>Your screen activity, sleep estimates, and journal notes stay on your device. We have no servers and no accounts, and we never receive this data.</li>
+      <li>The free version shows ads from Google AdMob, which collects device identifiers and usage information to serve and measure ads.</li>
+      <li>Premium is a one-time purchase handled by Google Play or the App Store. Premium removes ads, and the ad service is not started at all.</li>
+      <li>You can delete your history at any time in the app, and uninstalling removes everything the app stored.</li>
+    </ul>
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>Screen Journal (“the app”) is developed by Spiralize Software (“we”, “us”). This policy explains what information the app handles, why, and the choices you have. Questions can be sent to <a href="mailto:spiralize.software@proton.me">spiralize.software@proton.me</a>.</p>
+
+  <h2>2. Information that stays on your device</h2>
+  <p>To show your screen habits, the app records the following and stores it only in the app’s private storage on your device:</p>
+  <ul>
+    <li><strong>Screen events:</strong> the times your screen turns on, turns off, and is unlocked.</li>
+    <li><strong>Derived insights:</strong> daily screen time, wake-up counts, and estimated sleep periods calculated from those events.</li>
+    <li><strong>Journal entries:</strong> the tags and notes you choose to add to a day.</li>
+    <li><strong>Preferences:</strong> theme, color palette, daily goal, and sleep settings.</li>
+  </ul>
+  <p>This information is not uploaded, shared, or sold, and we cannot see it. The app does not read the content of your screen, your messages, your contacts, or which other apps you use.</p>
+  <p>If you use <strong>Copy daily summary</strong> or <strong>Copy screen events</strong>, the app copies that data to your device’s clipboard. Where it goes from there is up to you.</p>
+
+  <h2>3. Advertising (free version)</h2>
+  <p>The free version of the app shows banner ads provided by Google AdMob. When ads are shown, the Google Mobile Ads SDK may collect and process:</p>
+  <ul>
+    <li>Your device’s advertising ID (Android advertising ID or Apple IDFA, where permitted)</li>
+    <li>IP address, which may be used to estimate your general location</li>
+    <li>Device and app information, such as device model, operating system version, and app version</li>
+    <li>Ad interactions, such as ads viewed and tapped, and diagnostic information</li>
+  </ul>
+  <p>Google uses this information to deliver, measure, and improve ads, to prevent fraud, and, if you allow it, to personalize ads. Google’s handling of this data is described in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h3>Your ad choices</h3>
+  <ul>
+    <li><strong>Consent:</strong> if you are in a region that requires it (such as the European Economic Area, the United Kingdom, Switzerland, or certain US states), the app asks for your consent before ads are personalized. You can change your choice at any time in <strong>Settings → Ad privacy choices</strong>.</li>
+    <li><strong>Advertising ID:</strong> on Android you can reset or delete your advertising ID in your device settings under <em>Privacy → Ads</em>. On iOS you can limit tracking under <em>Settings → Privacy &amp; Security → Tracking</em>.</li>
+    <li><strong>No ads:</strong> with Premium, the ad SDK is not started and no ad data is collected by the app.</li>
+  </ul>
+
+  <h2>4. Purchases</h2>
+  <p>Premium is a one-time purchase processed entirely by Google Play or the Apple App Store under their own terms and privacy policies. We never receive your payment details. The store gives the app a confirmation of your purchase, and the app remembers on your device that Premium is unlocked so that it keeps working offline.</p>
+
+  <h2>5. Permissions the app uses</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Permission</th><th>Why</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Notifications</td><td>To show the ongoing notification required while background tracking is running.</td></tr>
+        <tr><td>Foreground service</td><td>To keep recording screen on/off events while the app is closed.</td></tr>
+        <tr><td>Run at startup</td><td>To resume tracking after your device restarts, if you had it turned on.</td></tr>
+        <tr><td>Ignore battery optimizations (optional)</td><td>To stop the system from pausing tracking. You choose whether to allow this.</td></tr>
+        <tr><td>Internet</td><td>Used only by the advertising and in-app purchase services described above.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>6. How long data is kept and how to delete it</h2>
+  <ul>
+    <li>Screen activity is kept on your device for 30 days on the free plan and up to 365 days with Premium. Older records are deleted automatically.</li>
+    <li>You can delete all history and journal entries at any time in <strong>Settings → Data &amp; demo → Explore with demo data → Clear all history</strong>.</li>
+    <li>Uninstalling the app removes all data it stored on your device.</li>
+    <li>Data collected by Google for advertising is retained under Google’s policies. You can manage it through your Google account and the advertising ID controls above.</li>
+  </ul>
+
+  <h2>7. Security</h2>
+  <p>Your journal data is kept in the app’s private storage, which other apps cannot read. Communication between the ad and purchase services and their servers is encrypted in transit.</p>
+
+  <h2>8. Children</h2>
+  <p>The app is not directed at children under 13, and we do not knowingly collect personal information from children. If you believe a child has used the app and you have concerns, contact us at <a href="mailto:spiralize.software@proton.me">spiralize.software@proton.me</a>.</p>
+
+  <h2>9. Your rights</h2>
+  <p>Depending on where you live, you may have rights to access, correct, delete, or restrict the use of your personal information, and to withdraw consent. Because the app’s own data never leaves your device, you can exercise these rights directly in the app as described above. For advertising data, use the ad choices in section 3 or contact Google. For anything else, contact us.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If we change what the app collects or how it is used, we will update this page and its effective date, and describe significant changes in the app’s release notes.</p>
+
+  <h2>11. Contact</h2>
+  <p>Spiralize Software<br>Email: <a href="mailto:spiralize.software@proton.me">spiralize.software@proton.me</a></p>
+
+  <footer>Screen Journal · Privacy Policy</footer>
+</main>
+</body>
+</html>
